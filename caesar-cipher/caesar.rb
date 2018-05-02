@@ -12,4 +12,4 @@ puts "Please enter a phrase:"
 str = gets.chomp
 puts "Now, how far would you like to shift?"
 number = gets.chomp.to_i
-puts "The encoded phrase is #{caesar_cipher(str, number)}"
+puts "The coded phrase is '#{caesar_cipher(str, number)}'"
